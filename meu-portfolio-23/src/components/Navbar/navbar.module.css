@@ -1,0 +1,37 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 30px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.links ul {
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    color: var(--texto-primario);
+}
+.redes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo h2 {
+    font-size: 5rem;
+}

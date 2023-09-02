@@ -1,0 +1,56 @@
+.container {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+p {
+    font-size: 4rem;
+}
+.nome {
+    font-size: 10rem;
+}
+.cargo {
+    font-size: 4rem;
+    color: var(--texto-primario);
+}
+
+
+.digitando {
+    animation: digitando  1s infinite ease-in
+}
+.flutuando {
+    animation: flutuando 2s infinite;
+    position: relative;
+}
+
+.container img {
+    margin-top: 100px;
+    width: 80px;
+}
+
+@keyframes digitando {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes flutuando {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: 50px;
+    }
+    100% {
+        top: 0;
+    }
+}
